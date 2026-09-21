@@ -14,7 +14,7 @@ A small Claude Code plugin for reviewing your work. It adds a read-only code-rev
 Load the plugin locally:
 
 ```
-claude --plugin-dir ./rds-first-plugin
+claude --plugin-dir .
 ```
 
 - Run `/qa-kit:summarize-changes` to get a PR-ready summary of your branch.
@@ -24,7 +24,7 @@ claude --plugin-dir ./rds-first-plugin
 ## Layout
 
 ```
-rds-first-plugin/
+.
 ├── .claude-plugin/
 │   └── plugin.json
 ├── commands/
